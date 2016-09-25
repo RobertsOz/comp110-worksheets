@@ -3,3 +3,6 @@
 Please upload the screenshots of your SpaceChem circuits to this directory.
 
 Please also edit this file (`README.md`) to include a link to your YouTube playlist.
+
+ScreenShot naming scheme(WORLD-LEVEL-PRODUCTION LEVEL CLOSE UP Example: The first level of Sernimir II is 1-1)
+Roberts Ozolins Ozols (https://www.youtube.com/watch?v=lE3BcE9UADM&list=PLS3hvIJIB_F4aSRklG0XvHiH23S0CWqNn)
