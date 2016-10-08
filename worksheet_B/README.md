@@ -1,6 +1,6 @@
 # COMP110 Worksheet B: Flowcharts and Pseudocode (Roberts Ozolins-Ozols)
 
-n is 0
+n is 0  
 guessLetterCounter is 0
 guessesLeft is 4
 likenessScore is 0
