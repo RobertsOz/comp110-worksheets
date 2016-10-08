@@ -6,7 +6,7 @@
 *likenessScore* is 0 __*|The words likeness score*__  
 **print** "Input the secret word"  
 **read** *secretWord*  
-**for** *letter* in *secretWord* __*|List and count the secret words letters*__  
+**for** *letter* **in** *secretWord* __*|List and count the secret words letters*__  
     *n* + 1  
     *secretWord*[*n*] is *letter*  
 **end for**  
@@ -14,7 +14,7 @@
 **while** *guessesLeft* > 0  
     **print** "Make your guess!(", *guessesLeft*, "guesses left)"  
     **read** *guess*  
-    **for** *yourGuess* in *guess*  
+    **for** *yourGuess* **in** *guess*  
         *guessLetterCounter* + 1 __*|Assign a number to each letter of the guess*__  
         **if** *yourGuess* == *secretWord*[*guessLetterCounter*] __*|Check each corresponding letter against the secret word*__  
             *likenessScore* + 1  
