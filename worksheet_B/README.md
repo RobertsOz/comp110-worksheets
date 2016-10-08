@@ -1,6 +1,6 @@
 # COMP110 Worksheet B: Flowcharts and Pseudocode (Roberts Ozolins-Ozols)
 
-*n* is 0 __*| Number of letters in the secret word*__  
+*n* is 0 __*|Number of letters in the secret word*__  
 *guessLetterCounter* is 0 __*|Number of letters in your guess*__  
 *guessesLeft* is 4 __*|Number guesses left*__  
 *likenessScore* is 0 __*|The words likeness score*__  
