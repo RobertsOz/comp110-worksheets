@@ -30,4 +30,4 @@
 **print** "YOU ARE OUT OF GUESSES! YOU LOSE!"__*|This prints when you are out of guesses*__  
 
 
-Flowchart [[worksheet_B/flowchart.png]]
+Flowchart [[flowchart.png]]
