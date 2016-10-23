@@ -11,4 +11,15 @@ So in the first iteration of the loop *i* will be 1 and the *j* list will be 1 l
 Thus if *n* is 10 on the first loop *j* will go through 1 loop, on the second 2 loops, on the third 3 loops and so on. So at the end of 10n loop
 *j* will have gone trough 1+2+3+4+5+6+7+8+9+10=56 loops when in the first scenario it would have been 100 loops.
 
-(e) No, because the second loop is much smaller. Instead the loop now is linear O(n). So instead of if n is 5 looping 25 times it now loops 1+2+3+4+5=15 times
+(e) No, because the second loop is much smaller. Instead the loop now is now O((n(n+1))/2). So instead if n is 5 looping 25 times it now loops 15 times
+
+(f) Python uses an adaptive sorting algorithm that in its worst case runs in O(nlogn) and in the best case it runs in linear time, O(n).
+*Chandramouli, Badrish; Goldstein, Jonathan (2014). Patience is a Virtue: Revisiting Merge and Sort on Modern Processors. SIGMOD/PODS.
+
+(g) Python will sort the list in O(n), because it is not an complex list, then we will also go through the list and find duplicates in O(n). So the algorithms time complexity is O(2n)
+
+(h) The socond algorithm is always going to be faster than the first one. Because the first one is running in quadratic time and the second is running in 2x linear time. 
+
+(i) If the list would be more complex the second algorithm could run longer due to the adaptive nature of the Python sort algorithm. If the sort function at its worst case runs in O(nlogn) and on top of that runs O(n). While the first algorithm doesn't require you to sort the list and is always going to run at the same speed.
+
+
